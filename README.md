@@ -4,7 +4,7 @@
 Download, unzip and load data into data frame `data`. 
 
 ```r
-if(!file.exists("getdata-projectfiles-UCI HAR Dataset.zip")) {
+if(!file.exists("activity.csv")) {
         temp <- tempfile()
         download.file("http://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip",temp)
         unzip(temp)
